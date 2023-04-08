@@ -1,0 +1,15 @@
+.plase__url-heading {
+    position: absolute;
+    /* добавили */
+    bottom: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 2px;
+
+    color: #AAAAAA;
+}
