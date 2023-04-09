@@ -1,7 +1,9 @@
 .cover__subtitle {
     opacity: 1;
-    margin: 0;
+    margin: 0 412px 0 412px;
     padding: 32px 0 245px 0;
+    width: 360px;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

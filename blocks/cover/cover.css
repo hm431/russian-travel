@@ -1,6 +1,8 @@
 .cover {
     margin: 92px calc((100vw - 1184px)/2) 0 calc((100vw - 1184px)/2);
     width: 1184px;
+    align-items: center;
+    align-content: center;
     background-image: url(/images/__background.png);
     opacity: 0.3;
 }

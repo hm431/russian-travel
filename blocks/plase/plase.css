@@ -1,7 +1,10 @@
 .plase {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(484px, 1fr));
-    /*grid-template-columns: 460px 484px; */
-    gap: 40px;
-    row-gap: 48px;
+    
+    grid-template-columns: 460px 484px; 
+    
+    /*margin: 0 0 0 148px;
+    grid-template-rows: 152px 460px; */
+    grid-template-rows: minmax(76px 152px) 460px;
+    gap: 48px 40px;
 }

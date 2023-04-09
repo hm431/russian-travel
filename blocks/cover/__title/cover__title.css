@@ -8,9 +8,9 @@
     font-size: 72px;
     line-height: 76px;
     /* or 106% */
-
+    width: 560px;
     text-align: center;
-
+    margin: 0 312px 0 312px;
     color: #FFFFFF;
 
 }
