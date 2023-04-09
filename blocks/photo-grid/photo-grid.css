@@ -8,3 +8,12 @@
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-template-rows: 213px 213px 213px; 
 }
+
+@media screen and (max-width: 1024px) {
+    .photo-grid{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: repeat(auto-fit, 225px);
+        gap: 14px; 
+    }
+}
+

@@ -1,10 +1,18 @@
 .plase {
     display: grid;
-    
     grid-template-columns: 460px 484px; 
-    
     /*margin: 0 0 0 148px;
     grid-template-rows: 152px 460px; */
     grid-template-rows: minmax(76px 152px) 460px;
     gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .plase{
+        grid-template-columns: 440px 456px; 
+        /*margin: 0 0 0 148px;
+        grid-template-rows: 152px 460px; */
+        grid-template-rows: minmax(76px 152px) 440px;
+        gap: 48px 32px;
+    }
 }

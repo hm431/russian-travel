@@ -11,3 +11,7 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
+:hover.plase__link{
+    opacity: 0.8;
+}
