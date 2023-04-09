@@ -1,7 +1,7 @@
 @import url(/blocks/page/page.css);
 @font-face {
     font-family: Inter; /* Имя шрифта */
-    src: url(/font/Inter\ Web/Web);}
+    src: url(/font/Inter_Web/inter.css);}
 @import url(/styles/normalize.css);
 /*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
 @import url(/blocks/cover/__subtitle/cover__subtitile.css);
