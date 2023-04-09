@@ -13,3 +13,9 @@
 
     color: #AAAAAA;
 }
+
+@media screen and (max-width: 320px) {
+    .plase__url-heading{
+        margin: 0 16px 0 16px;
+    }
+}

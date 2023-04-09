@@ -4,3 +4,10 @@
     align-items: center;
     gap: 80px;
 }
+
+@media screen and (max-width: 320px) {
+    .plase{
+        gap: 50px;
+        margin: 0 16px 0 16px;
+    }
+}

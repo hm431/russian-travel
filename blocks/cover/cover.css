@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 768px) {
     .cover{
-        margin: 90px calc((100vw - 1184px)/2) 0 calc((100vw - 1184px)/2);
+        margin: 66px calc((100vw - 1184px)/2) 0 calc((100vw - 1184px)/2);
     }
 }
+

@@ -15,3 +15,9 @@
 :hover.plase__link{
     opacity: 0.8;
 }
+
+@media screen and (max-width: 320px) {
+    .plase__link{
+        margin: 0 16px 0 16px;
+    }
+}

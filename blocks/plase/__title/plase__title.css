@@ -18,3 +18,9 @@ color: #FFFFFF;
         line-height: 46px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .plase__title{
+        margin: 0 16px 0 16px;
+    }
+}

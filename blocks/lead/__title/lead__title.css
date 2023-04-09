@@ -12,3 +12,17 @@
     color: #FFFFFF;
 
 }
+@media screen and (max-width: 320px) {
+    .lead__title{ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+/* or 110% */
+    text-align: center;
+    color: #FFFFFF;
+    }
+    
+}
+

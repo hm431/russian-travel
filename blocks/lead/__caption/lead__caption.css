@@ -14,15 +14,35 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .lead__caption{
+    .lead__caption {
         margin: 8px 0 0px 29px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .lead__caption{
+    .lead__caption {
         margin: 8px 542px 0px 24px;
         width: 200px;
-        align-self:auto;
+        align-self: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        margin: 8px 146px 0px 0px;
+        width: 156px;
+        align-self: auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        /* identical to box height, or 140% */
+
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+
     }
 }

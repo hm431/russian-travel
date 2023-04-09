@@ -4,3 +4,10 @@
     flex-direction: row-reverse;
     gap: 18px;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__part{
+        flex-direction: column;
+        gap: 32px;
+    }
+}
