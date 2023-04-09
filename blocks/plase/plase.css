@@ -16,3 +16,13 @@
         gap: 48px 32px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .plase{
+        grid-template-columns: 340px 352px; 
+        /*margin: 0 0 0 148px;
+        grid-template-rows: 152px 460px; */
+        grid-template-rows: minmax(46px 92px) 441px;
+        gap: 48px 32px;
+    }
+}

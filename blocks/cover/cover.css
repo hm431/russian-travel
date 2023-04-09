@@ -1,8 +1,6 @@
 .cover {
     margin: 92px calc((100vw - 1184px)/2) 0 calc((100vw - 1184px)/2);
-    width: 1184px;
-    align-items: center;
-    align-content: center;
+    width: 100%;
     background-image: url(/images/__background.png);
     background-color: #2A2C2F;
     background-size: cover;
@@ -13,8 +11,8 @@
     opacity: 0.3;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .cover{
-        width: 1024px;
+        margin: 90px calc((100vw - 1184px)/2) 0 calc((100vw - 1184px)/2);
     }
 }
