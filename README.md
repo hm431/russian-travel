@@ -17,4 +17,4 @@
 **GitHub Pages**
 
 GitHub Pages 
-https://hm431.github.io
+https://hm431.github.io/russian-travel/
