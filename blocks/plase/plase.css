@@ -32,7 +32,7 @@
         grid-template-columns: 320px; 
         /*margin: 0 0 0 148px;
         grid-template-rows: 152px 460px; */
-        grid-template-rows: 35px 46px 320px 545px;
+        grid-template-rows: 35px 46px 320px minmax(300px 468px);
         gap: 32px;
     }
 }
