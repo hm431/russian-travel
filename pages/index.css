@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font/Inter_Web/inter.css);
 @import url(../blocks/page/page.css);
-@import url(../styles/normalize.css);
 @import url(../blocks/cover/__subtitle/cover__subtitile.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/cover.css);
