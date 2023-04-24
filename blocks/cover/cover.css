@@ -6,7 +6,7 @@
     background-size: cover;
 }
 
-:hover.cover{
+.cover:hover{
     background-color: #2A2C2F30;
     opacity: 0.3;
 }

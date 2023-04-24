@@ -9,7 +9,7 @@
     color: #FFFFFF;
 }
 
-:hover.footer__link {
+.footer__link:hover {
     opacity: 0.8;
 }
 

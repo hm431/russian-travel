@@ -12,7 +12,7 @@
     color: #FFFFFF;
 }
 
-:hover.plase__link{
+.plase__link:hover{
     opacity: 0.8;
 }
 
