@@ -22,16 +22,15 @@
         grid-template-columns: 340px 352px; 
         /*margin: 0 0 0 148px;
         grid-template-rows: 152px 460px; */
-        grid-template-rows: minmax(46px 92px) 441px;
-        gap: 48px 32px;
+       /* grid-template-rows: minmax(46px, 92px) 441px; */
+        gap: 48px 25px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .plase{
+       
         grid-template-columns: 100%; 
-        /*margin: 0 0 0 148px;
-        grid-template-rows: 152px 460px; */
         grid-template-rows: 35px 46px 100% minmax(300px 468px);
         gap: 32px;
     }

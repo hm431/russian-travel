@@ -29,8 +29,8 @@
 
 @media screen and (max-width: 320px) {
     .lead__caption {
-        margin: 8px 146px 0px 0px;
-        width: 156px;
+        margin: 8px 146px 0px 16px;
+        width: 160px;
         align-self: auto;
         font-family: 'Inter';
         font-style: normal;

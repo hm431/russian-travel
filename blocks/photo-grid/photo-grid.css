@@ -6,7 +6,8 @@
     align-content: center;
     width: calc(100vw - 48px * 2);
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: 213px 213px 213px; 
+    grid-template-rows: 213px 213px 213px;
+    max-width: 1232px; 
 }
 
 @media screen and (max-width: 1024px) {
@@ -31,6 +32,6 @@
         margin: 0 16px 64px 16px;
         grid-template-columns: 288px;
         grid-template-rows: repeat(auto-fit, 216px);
-        gap: 16px; 
+        gap: 12px; 
     }
 }
