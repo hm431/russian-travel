@@ -30,7 +30,7 @@
 @media screen and (max-width: 320px) {
     .plase{
        
-        grid-template-columns: 100%; 
+        grid-template-columns: 100%;
         grid-template-rows: 35px 46px 100% minmax(300px 468px);
         gap: 32px;
     }
