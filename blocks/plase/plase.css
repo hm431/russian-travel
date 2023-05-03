@@ -1,19 +1,19 @@
 .plase {
     display: grid;
-    grid-template-columns: 460px 484px; 
+    grid-template-columns: 460px 484px;
     gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
     .plase{
-        grid-template-columns: minmax(340px, 440px) minmax(352px ,456px); 
+        grid-template-columns: minmax(340px, 440px) minmax(352px ,456px);
         gap: 48px 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .plase{
-        grid-template-columns: 340px 352px; 
+        grid-template-columns: 340px 352px;
         gap: 48px 25px;
     }
 }
