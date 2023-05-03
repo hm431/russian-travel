@@ -1,18 +1,12 @@
 .plase {
     display: grid;
     grid-template-columns: 460px 484px; 
-    /*margin: 0 0 0 148px;
-    grid-template-rows: 152px 460px; */
-    grid-template-rows: minmax(76px 152px) 460px;
     gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
     .plase{
-        grid-template-columns: 440px 456px; 
-        /*margin: 0 0 0 148px;
-        grid-template-rows: 152px 460px; */
-        grid-template-rows: minmax(76px 152px) 440px;
+        grid-template-columns: minmax(340px, 440px) minmax(352px ,456px); 
         gap: 48px 32px;
     }
 }
@@ -20,18 +14,14 @@
 @media screen and (max-width: 768px) {
     .plase{
         grid-template-columns: 340px 352px; 
-        /*margin: 0 0 0 148px;
-        grid-template-rows: 152px 460px; */
-       /* grid-template-rows: minmax(46px, 92px) 441px; */
         gap: 48px 25px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     .plase{
        
         grid-template-columns: 100%;
-        grid-template-rows: 35px 46px 100% minmax(300px 468px);
         gap: 32px;
     }
 }
