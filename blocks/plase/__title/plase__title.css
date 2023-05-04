@@ -5,7 +5,6 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    /* or 106% */
     color: #FFFFFF;
 }
 
@@ -17,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     .plase__title{
         margin: 0 16px 0 16px;
         font-size: 32px;

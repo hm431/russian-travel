@@ -2,12 +2,11 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    /*gap: 4px;*/
     align-self: flex-end;
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     .plase__website{
         gap: 12px; 
     }

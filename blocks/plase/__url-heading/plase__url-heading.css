@@ -5,14 +5,12 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    /* identical to box height, or 100% */
-
     letter-spacing: 2px;
 
     color: #AAAAAA;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     .plase__url-heading{
         margin: 0 16px 0 16px;
     }
