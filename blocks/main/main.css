@@ -1,4 +1,4 @@
-.main{
+.main {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -6,13 +6,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .main{
+    .main {
         max-width: calc(100% - 96px);
     }
 }
 
 @media screen and (max-width: 768px) {
-    .main{
-    width: 100%;
+    .main {
+        width: 100%;
+        max-width: 768px;
     }
 }

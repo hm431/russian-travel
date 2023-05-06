@@ -5,25 +5,23 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .plase{
-        grid-template-columns: minmax(340px, 440px) minmax(352px ,456px);
+    .plase {
+        grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
         gap: 48px 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .plase{
+    .plase {
         grid-template-columns: 340px 352px;
         gap: 48px 25px;
     }
 }
 
 @media screen and (max-width: 720px) {
-    .plase{
-       
+    .plase {
+
         grid-template-columns: 100%;
         gap: 32px;
     }
 }
-
-

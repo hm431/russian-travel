@@ -4,19 +4,19 @@
     width: calc(100vw - 96px);
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 @media screen and (max-width: 768px) {
-    .header{
-    margin: 28px 0 0 0;
-    min-width: calc(100vw - 48px);
+    .header {
+        margin: 28px 0 0 0;
+        min-width: calc(100vw - 48px);
     }
 }
 
 @media screen and (max-width: 320px) {
-    .header{
-    margin: 16px 0 0 0;
-    min-width: calc(100vw - 32px);
+    .header {
+        margin: 16px 0 0 0;
+        min-width: calc(100vw - 32px);
     }
 }

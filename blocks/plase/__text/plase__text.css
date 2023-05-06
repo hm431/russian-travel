@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 26px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -13,14 +13,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .plase__text{
+    .plase__text {
         font-size: 16px;
         gap: 25px;
     }
 }
 
 @media screen and (max-width: 720px) {
-    .plase__text{
+    .plase__text {
         margin: 0 16px 0 16px;
         max-width: calc(100vw - 32px);
     }
