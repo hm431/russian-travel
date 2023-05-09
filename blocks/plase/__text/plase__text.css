@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 744px) {
     .plase__text {
         margin: 0 16px 0 16px;
         max-width: calc(100vw - 32px);

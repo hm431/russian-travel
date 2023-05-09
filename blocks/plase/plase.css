@@ -11,14 +11,15 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 900px) {
     .plase {
         grid-template-columns: 340px 352px;
         gap: 48px 25px;
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 744px) {
     .plase {
 
         grid-template-columns: 100%;
